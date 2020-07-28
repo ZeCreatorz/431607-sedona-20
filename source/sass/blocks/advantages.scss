@@ -1,0 +1,31 @@
+.advantages {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages__item {
+  background-color: #ededed;
+}
+
+.advantages__item-full {
+  color: $white;
+  background-color: $white;
+}
+
+.advantages__text-wrapper {
+  background-color: $lightgreyblue;
+}
+
+.advantages__title {
+  font-size: $font-size-large;
+  line-height: 26px;
+  font-weight: 700;
+
+}
+
+.advantages__text {
+  margin: 0;
+  padding: 0;
+}
