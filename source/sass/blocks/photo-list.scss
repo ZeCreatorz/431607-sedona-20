@@ -1,0 +1,27 @@
+.photo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.photo-list__content {
+  margin: 0;
+  padding: 0;
+}
+
+.photo-list__title {
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 0;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.photo-list__author {
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
+  line-height: 24px;
+  color: $darkgray;
+  text-transform: none;
+}

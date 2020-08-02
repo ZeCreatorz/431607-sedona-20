@@ -122,14 +122,12 @@
           </li>
         </ul>
       </fieldset>
-      <div class="feedback__fieldset field-text">
-        <label class="field-text__label" for="emotions">Опишите свои эмоции:</label>
-        <textarea class="field-text__area" id="emotions" name="emotions" cols="30" rows="7"
-          placeholder="Опишите подробно все свои восторги">
-        </textarea>
-      </div>
+      <fieldset class="feedback__fieldset field-text">
+        <legend class="field-text__label field-text__label-emotions" for="emotions">Опишите свои эмоции:</legend>
+        <textarea class="field-text__area" id="emotions" name="emotions" cols="30" rows="7" placeholder="Опишите подробно все свои восторги"></textarea>
+      </fieldset>
       <p class="feedback__note">* — обязательные поля</p>
-      <button class="feedback__button" type="submit">Отправить отзыв</button>
+      <button class="feedback__button button" type="submit">Отправить отзыв</button>
     </form>
   </main>
   <footer class="page-footer">
@@ -187,7 +185,7 @@
         на сайте.
       </p>
       <p class="modal__button-wrapper">
-        <button class="modal__button" type="button">Закрыть окно</button>
+        <button class="modal__button modal__button-successful" type="button">Закрыть окно</button>
       </p>
     </section>
   </footer>
