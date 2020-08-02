@@ -43,18 +43,5 @@
 }
 
 .feedback__button {
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 19px;
   min-width: 280px;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: 700;
-  color: $white;
-  text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
-  font-family: $font-family-base;
-  background-color: $lightgreyblue;
-  border: none;
 }

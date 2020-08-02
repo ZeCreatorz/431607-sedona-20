@@ -2,6 +2,18 @@
   margin-bottom: 20px;
 }
 
+.field-text__radio {
+  font-size: $font-size-large;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.field-text__checkbox {
+  font-size: $font-size-large;
+  text-transform: none;
+  font-weight: 700;
+}
+
 .field-text__value {
   box-sizing: border-box;
   border: none;
@@ -40,7 +52,12 @@
 }
 
 .field-text__label {
-  text-transform: none;
+  line-height: 26px;
+}
+
+.field-text__label-emotions {
+  font-size: $font-size-large;
+  font-weight: 700;
 }
 
 .field-text__description {
