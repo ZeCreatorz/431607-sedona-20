@@ -2,6 +2,15 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  outline: solid red;
+}
+
+.photo-list__item {
+  margin-bottom: 39px;
+}
+
+.photo-list__item:last-of-type {
+  margin-bottom: 48px;
 }
 
 .photo-list__content {
@@ -19,9 +28,14 @@
 
 .photo-list__author {
   margin: 0;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   padding: 0;
   line-height: 24px;
   color: $darkgray;
   text-transform: none;
+}
+
+.photo-list__link {
+  display: block;
+  margin-bottom: 11px;
 }

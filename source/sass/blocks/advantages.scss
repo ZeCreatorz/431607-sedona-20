@@ -1,8 +1,9 @@
 .advantages {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
   padding: 0;
   list-style: none;
+  outline: solid red;
 }
 
 .advantages__item {
@@ -15,16 +16,27 @@
 }
 
 .advantages__text-wrapper {
+  max-width: 295px;
+  text-align: center;
   background-color: $lightgreyblue;
 }
 
 .advantages__title {
+  display: inline-block;
+  margin-top: 34px;
   font-size: $font-size-large;
   line-height: 26px;
   font-weight: 700;
 }
 
 .advantages__text {
-  margin: 0;
+  display: inline-block;
+  margin-bottom: 39px;
+  margin-top: 0;
   padding: 0;
+}
+
+.advantages__link {
+  display: block;
+  margin-bottom: 26px;
 }
