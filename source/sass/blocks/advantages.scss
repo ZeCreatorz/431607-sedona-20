@@ -16,13 +16,13 @@
 }
 
 .advantages__text-wrapper {
-  max-width: 295px;
   text-align: center;
   background-color: $lightgreyblue;
 }
 
 .advantages__title {
   display: inline-block;
+  vertical-align: middle;
   margin-top: 34px;
   font-size: $font-size-large;
   line-height: 26px;
@@ -30,7 +30,6 @@
 }
 
 .advantages__text {
-  display: inline-block;
   margin-bottom: 39px;
   margin-top: 0;
   padding: 0;
