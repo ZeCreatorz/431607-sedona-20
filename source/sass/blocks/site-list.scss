@@ -24,3 +24,23 @@
   color: $white;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .site-list__link {
+    font-size: 14px;
+    line-height: 26px;
+    border: none;
+    color: $black;
+    background-color: $white;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__link {
+    font-size: 14px;
+    line-height: 26px;
+    border: none;
+    color: $black;
+    background-color: $white;
+  }
+}
