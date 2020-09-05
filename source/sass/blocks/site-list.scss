@@ -44,3 +44,17 @@
     background-color: $white;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .site-list__item {
+    width: 20%;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list__item {
+    width: 20%;
+    margin-right: auto;
+  }
+}

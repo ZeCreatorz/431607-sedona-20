@@ -14,11 +14,89 @@
   background-color: $white;
 }
 
+@media (min-width: $tablet-width) {
+  .advantages {
+    display: grid;
+    grid-template-columns: 33.33333333333333% 33.33333333333333% 33.33333333333333%;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__text-wrapper {
+    display: grid;
+    grid-template-columns: 33.33333333333333% 33.33333333333333% 33.33333333333333%;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__item-full {
+    grid-column: 1 / 4;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__text-wrapper {
+    grid-template-areas: "title image image";
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__text-wrapper,
+  .advantages__title {
+    grid-area: title;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__text-wrapper,
+  .advantages__image-wrapper {
+    grid-area: image;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__title,
+  .advantages__image {
+    grid-area: title;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__wrapper--revers {
+    grid-template-areas: "image image title";
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages {
+    counter-reset: advantages;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__title::before {
+    display: block;
+    counter-increment: advantages;
+    content: "—№ " counter(advantages) "—";
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .advantages__image {
+    width: 512px;
+    height: 256px;
+  }
+}
+
 .advantages__text-wrapper {
+  min-height: 211px;
   background-color: $lightgreyblue;
+  vertical-align: middle;
 }
 
 .advantages__title {
+  margin-top: 55px;
+  margin-bottom: 49px;
   font-size: $font-size-large;
   line-height: 26px;
   font-weight: 700;
@@ -27,4 +105,5 @@
 .advantages__text {
   margin: 0;
   padding: 0;
+  width: 295px;
 }

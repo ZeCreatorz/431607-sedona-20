@@ -1,5 +1,18 @@
 .intro {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   margin-bottom: 10px;
+  width: 265px;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+  }
 }
 
 .intro__title {

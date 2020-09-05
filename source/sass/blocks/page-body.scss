@@ -1,11 +1,17 @@
 @media (min-width: $tablet-width) {
   .page-body {
+    margin: 0 auto;
     width: $tablet-width;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-body {
+    margin: 0 auto;
     width: $desktop-width;
   }
+}
+
+.page-body {
+  margin: 0 auto;
 }

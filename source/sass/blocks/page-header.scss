@@ -2,12 +2,6 @@
   margin: 0;
 }
 
-@media (min-width: $tablet-width) {
-  .page-header {
-    padding: 0 39px;
-  }
-}
-
 .page-header__logo {
   order: 2;
   text-align: center;
@@ -19,12 +13,16 @@
 
 @media (min-width: $tablet-width) {
   .page-header__logo {
+    position: absolute;
+    left: 320px;
     height: 84px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-header__logo {
+    position: absolute;
+    left: 520px;
     height: 96px;
   }
 }
